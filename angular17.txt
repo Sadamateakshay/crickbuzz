@@ -1,0 +1,34 @@
+creating angular projects--> version 17
+name->crickbuzzfront
+points in angular->components,services,api call->HttpClient
+
+Server Side Rendering
+----------------------
+advantages:
+-increase performance of application
+-helpful for SEO(search engine optimization)
+
+Components of angular
+----------------------
+1)TS file->main component->logics [app.component.ts]
+2)HTML file->template [app.component.html] 
+3)CSS file [app.component.css]
+4)spec file->for testing [app.component.spec.ts]
+
+To make component use command->ng g c component_name
+To make service use command->ng g s service_name
+
+@Component is the decorator
+
+routing in angular
+-------------------
+app.routes.ts
+-in the app.routes.ts make routing 
+
+export const routes: Routes = [
+    {
+        path:"home",
+        component:HomeComponent
+    }
+here path means on which url you want to show component and component means which component you want to show
+To use routing use <router-outlet></router-outlet> in where you want but in .component.html file
